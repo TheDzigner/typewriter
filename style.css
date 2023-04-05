@@ -14,7 +14,7 @@
 
 .container 
 {
-    width: min(30%,98%);
+    width: 30%;
     height: auto;
     text-align: center;
     margin: 20% auto 0;
@@ -22,6 +22,13 @@
     padding: 10px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 700px) {
+   .container
+   {
+    width: 70%;
+   }
+  }
 
 .container .text 
 {
